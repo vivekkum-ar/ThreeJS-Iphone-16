@@ -1,4 +1,5 @@
 import './App.css'
+import Attribution from './components/Attribution'
 import DisplaySection from './components/DisplaySection'
 import Jumbotron from './components/Jumbotron'
 import Nav from './components/Nav'
@@ -13,6 +14,7 @@ function App() {
       <SoundSection/>
       <DisplaySection/>
       <WebgiViewer/>
+      <Attribution/>
     </div>
   )
 }
