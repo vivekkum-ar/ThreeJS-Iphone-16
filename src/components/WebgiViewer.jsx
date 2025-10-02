@@ -72,7 +72,7 @@ const IphoneScene = () => {
         const posY2 = useTransform(
       scrollYProgress,
       [4.5 / screen,5 / screen],
-      [-15,0]
+      [-25,0]
     );
 
     const cameraZ = useTransform(scrollYProgress, [0, 1 / screen], [15, 19]);
